@@ -1,4 +1,8 @@
 import Logo from './assets/Logo.svg';
+import Feed from './assets/feed.svg';
+import Account from './assets/account_circle.svg';
+import Info from './assets/info.svg';
+import Logout from './assets/logout.svg';
 
 export default function Sidebar() {
     return(
@@ -15,8 +19,27 @@ export default function Sidebar() {
                                 <span>Feed</span>
                             </a>
                         </li>
-                    </ui>
+                        <li>
+                        <a href='#'>
+                            <img src={Account} alt='' />
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src={Info} alt='' />
+                            <span>About us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src={Logout} alt='' />
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                    </ul>
                 </nav>
             </aside>
         );
 }
+
