@@ -1,0 +1,15 @@
+aside {
+    background-color: var(--dark-gray);
+    padding: 2.5em 1em;
+    width: 177px;
+    border-radius: 8x;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    list-style-type: none;
+    margin-top: 5em;
+
+}
