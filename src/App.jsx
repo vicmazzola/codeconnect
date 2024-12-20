@@ -4,7 +4,7 @@ import Sidebar from "./components/sidebar";
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Sidebar />
       <SearchBar />
     </div>
