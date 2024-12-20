@@ -1,7 +1,11 @@
 .search-bar{
     width: 100%;
-    color: var(--dark-grey);
-    padding: .5em 1em;
+    color: var(--light-grey);
+    padding: .5em 1em .5em 4em;
     height: 49px;
     font-family: var(--font);
+    font-size: 18px;
+    background: var(--dark-grey) url('./assets/search.svg') no-repeat 32px ;
+    border: none;
+    border-radius: 4px;
 }
