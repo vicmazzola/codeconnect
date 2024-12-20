@@ -1,0 +1,7 @@
+.search-bar{
+    width: 100%;
+    color: var(--dark-grey);
+    padding: .5em 1em;
+    height: 49px;
+    font-family: var(--font);
+}
