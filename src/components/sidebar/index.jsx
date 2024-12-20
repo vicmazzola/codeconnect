@@ -12,28 +12,28 @@ export default function Sidebar() {
                 <nav>
                     <ul className='sidebar-list'>
                         <li>
-                            <a href='#'>Post</a>
+                            <a href='#' className='link__item-post'>Post</a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='#' className='link__item link__item--active'>
                                 <img src={Feed} alt='' />
                                 <span>Feed</span>
                             </a>
                         </li>
                         <li>
-                        <a href='#'>
+                        <a href='#' className='link__item'>
                             <img src={Account} alt='' />
                             <span>Profile</span>
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='#' className='link__item'>
                             <img src={Info} alt='' />
                             <span>About us</span>
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='#' className='link__item'>
                             <img src={Logout} alt='' />
                             <span>Logout</span>
                         </a>
