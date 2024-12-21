@@ -27,7 +27,16 @@ function App() {
           {data
             ? data.map((item, index) => (
                 <li key={index}>
-                  <Card />
+                  <Card
+                    id={item.id}
+                    imgmUrl={item.imagem_capa}
+                    title={item.titulo}
+                    overview={item.resumo}
+                    codeLine={item.linhas_de_codigo}
+                    share={item.compartilhamentos}
+                    comments={item.comentarios}
+                    user={item.usuario}
+                  />
                 </li>
               ))
             : null}
