@@ -4,3 +4,8 @@
     display: flex;
     gap: 16px;
 }
+
+
+.container div {
+    flex-grow: 2;
+}
