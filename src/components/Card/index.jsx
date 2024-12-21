@@ -3,7 +3,7 @@ import Chat from './assets/chat.svg';
 import Share from './assets/share.svg';
 import './styles.css'
 
-export default function Card({id, imgUrl, title, overview, codeLine, share, comments, user}) {
+export default function Card({ id, imgUrl, title, overview, codeLine, share, comments, user }) {
     return (
         <article className='card'>
             <div className='card__img'>
@@ -32,7 +32,7 @@ export default function Card({id, imgUrl, title, overview, codeLine, share, comm
 
                     <div className='user__footer'>
                         <img src={user.imagem} alt='User image' />
-                        {user.name}
+                        {user.nome}
                     </div>
                 </div>
             </div>
