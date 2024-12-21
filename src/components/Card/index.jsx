@@ -2,6 +2,7 @@ import Banner from './assets/card_code_editor.png';
 import Code from './code.svg';
 import Chat from './chat.svg';
 import Share from './share.svg';
+import Icon from './user.png';
 
 export default function Card() {
     return (
@@ -25,13 +26,14 @@ export default function Card() {
                             <img src={Share} alt='Share' />
                             12
                         </li><li>
-                            <img src={Chat} alt='Chat' />
+                            <img src={Chat} alt='Comments' />
                             10
                         </li>
                     </ul>
 
                     <div className='user__footer'>
-                        
+                        <img src={Icon} alt='User image' />
+                        @vic
                     </div>
                 </div>
             </div>
