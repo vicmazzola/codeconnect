@@ -3,10 +3,10 @@ aside {
     padding: 2.5em 1em;
     width: 177px;
     border-radius: 7px;
-    
+
 }
 
-.sidebar-list{
+.sidebar-list {
     display: flex;
     flex-direction: column;
     gap: 2.5em;
@@ -33,11 +33,42 @@ aside {
 }
 
 
-.link__item-post{
+.link__item-post {
     border: 1px solid var(--highlight-green);
     color: var(--highlight-green);
     padding: 0.75em 1em;
     border-radius: 8px;
     text-decoration: none;
 
+}
+
+
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+        padding: 1.5em 1em;
+
+    }
+
+    .sidebar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em; 
+        margin-top: 2em;
+        justify-content: center; 
+      }
+    
+      .sidebar-list li a {
+        font-size: 18px; 
+        gap: 8px; 
+      }
+
+      .link__item-post {
+        font-size: 16px; 
+        padding: 0.5em 0.75em;
+      }
+}
+
+@media (max-width: 480px) {
+    
 }
