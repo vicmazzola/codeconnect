@@ -15,5 +15,14 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
     gap: 24px;
-    color: var(--white);
+    color: #E1E1E1;
+}
+
+h3{
+    color: white;
+}
+
+.cards-list li {
+    background-color: #171D1F;
+
 }

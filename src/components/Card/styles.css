@@ -3,7 +3,7 @@
     text-decoration: none;
     background-color: var(--dark-grey);
     border-radius: 8px;
-    width: 50%;
+    width: 100%;
     display: grid;
 }
 
@@ -42,7 +42,7 @@
 
 .content__text h3 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 8px;
 }
 
@@ -76,6 +76,14 @@
     align-items: center;
     gap: 4px;
     font-size: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    border-radius: 7px;
 }
 
 .user__footer {
