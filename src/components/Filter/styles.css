@@ -26,3 +26,50 @@ section.container-filter ul li {
     font-size: 18px;
     padding: 0.25em 0.5em;
 }
+
+@media (max-width: 768px) {
+    .container-filter {
+        flex-direction: row;
+        gap: 0.5em;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-filter ul {
+        justify-content: center;
+    }
+
+    .container-filter ul li {
+        font-size: 16px;
+        padding: 0.25em 0.5em;
+    }
+
+    .container-filter button {
+        font-size: 16px;
+        padding: 0.25em 0.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-filter {
+        flex-direction: row;
+        gap: 0.3em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .container-filter ul {
+        gap: 0.3em;
+    }
+
+    .container-filter ul li {
+        font-size: 14px;
+        padding: 0.2em 0.3em;
+    }
+
+    .container-filter button {
+        font-size: 14px;
+        padding: 0.2em 0.3em;
+        border-radius: 7px;
+    }
+}

@@ -7,7 +7,7 @@ export default function SearchBar () {
     console.log(searchTerm)
     return (
         <input type='search'
-        placeholder="Type what you are searching"
+        placeholder="Type your search"
         className='search-bar'
         value={searchTerm}
         onChange={(event) => setSearchTerm(event.target.value)} />
