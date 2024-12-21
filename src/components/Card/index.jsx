@@ -1,40 +1,38 @@
-import './styles.css'
-import Banner from './assets/card_code_editor.png';
 import Code from './assets/code.svg';
 import Chat from './assets/chat.svg';
 import Share from './assets/share.svg';
-import Icon from './assets/user.png';
+import './styles.css'
 
-export default function Card() {
+export default function Card({id, imgUrl, title, overview, codeLine, share, comments, user}) {
     return (
         <article className='card'>
             <div className='card__img'>
-                <img src={Banner} alt='Post image' />
+                <img src={imgUrl} alt='Post image' />
             </div>
             <div className='card__content'>
                 <div className='content__text'>
-                    <h3>Post title</h3>
-                    <p>Post overview</p>
+                    <h3>{title}</h3>
+                    <p>{overview}</p>
                 </div>
 
                 <div className='content__footer'>
                     <ul>
                         <li>
                             <img src={Code} alt='Code'/>
-                            100
+                            {codeLine}
                         </li>
                         <li>
                             <img src={Share} alt='Share' />
-                            12
+                            {share}
                         </li><li>
                             <img src={Chat} alt='Comments' />
-                            10
+                            {comments}
                         </li>
                     </ul>
 
                     <div className='user__footer'>
-                        <img src={Icon} alt='User image' />
-                        @vic
+                        <img src={user.imagem} alt='User image' />
+                        {user.name}
                     </div>
                 </div>
             </div>

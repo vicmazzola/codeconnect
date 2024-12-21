@@ -29,7 +29,7 @@ function App() {
                 <li key={index}>
                   <Card
                     id={item.id}
-                    imgmUrl={item.imagem_capa}
+                    imgUrl={item.imagem_capa}
                     title={item.titulo}
                     overview={item.resumo}
                     codeLine={item.linhas_de_codigo}
