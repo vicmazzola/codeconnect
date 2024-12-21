@@ -1,6 +1,8 @@
+import './styles.css';
+
 export default function Filter() {
     return (
-        <section className='filter-container'>
+        <section className='container-filter'>
             <ul>
                 <li>Programming</li>
             </ul>
@@ -8,3 +10,4 @@ export default function Filter() {
         </section>
     )
 }
+
