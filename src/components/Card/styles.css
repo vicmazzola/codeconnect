@@ -82,7 +82,7 @@ ul{
     list-style-type: none;
 }
 
-li{
+li, button{
     border-radius: 7px;
 }
 

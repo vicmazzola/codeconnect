@@ -27,6 +27,7 @@ h3{
 
 }
 
+
 @media (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -41,3 +42,4 @@ h3{
       padding: 1em;
     }
   }
+
