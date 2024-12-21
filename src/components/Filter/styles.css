@@ -22,5 +22,7 @@ section.container-filter ul li {
     border: none;
     background-color: var(--light-gray);
     color: var(--medium-grey);
+    font-family: var(--font-family);
     font-size: 18px;
+    padding: 0.25em 0.5em;
 }
