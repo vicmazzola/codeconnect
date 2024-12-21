@@ -1,3 +1,4 @@
+import './styles.css'
 import Banner from './assets/card_code_editor.png';
 import Code from './assets/code.svg';
 import Chat from './assets/chat.svg';
