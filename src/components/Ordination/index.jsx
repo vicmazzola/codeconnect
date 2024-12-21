@@ -5,9 +5,9 @@ export default function Ordination() {
             <li>
                 <a href='' className='ordination-list__link ordination-list__link--active'>Recents</a>
             </li>
-            <li>
+            {/* <li>
                 <a href='' className='ordination-list__link'>Recents</a>
-            </li>
+            </li> */}
         </ul>
     )
 }

@@ -4,6 +4,7 @@
     line-height: 33px;
     color: var(--medium-grey);
     text-decoration: none;
+    text-align: center;
 }
 
 .ordination-list__link--active {
