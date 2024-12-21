@@ -26,3 +26,18 @@ h3{
     background-color: #171D1F;
 
 }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .cards-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .cards-list li {
+      padding: 1em;
+    }
+  }
