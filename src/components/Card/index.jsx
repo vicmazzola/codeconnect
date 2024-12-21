@@ -1,8 +1,8 @@
 import Banner from './assets/card_code_editor.png';
-import Code from './code.svg';
-import Chat from './chat.svg';
-import Share from './share.svg';
-import Icon from './user.png';
+import Code from './assets/code.svg';
+import Chat from './assets/chat.svg';
+import Share from './assets/share.svg';
+import Icon from './assets/user.png';
 
 export default function Card() {
     return (

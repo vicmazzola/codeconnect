@@ -3,6 +3,7 @@ import Filter from "./components/Filter";
 import Ordination from "./components/Ordination";
 import SearchBar from "./components/SearchBar";
 import Sidebar from "./components/sidebar";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <SearchBar />
         <Filter />
         <Ordination />
+        <Card />
       </div>
     </div>
   );
