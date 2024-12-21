@@ -1,14 +1,15 @@
+
 section.container-filter ul li {
     background-color: var(--light-gray);
     color: var(--dark-gray);
-    font-size: 18px;
+    font-size: 16px;
     padding: 0.25em 0.5em;
     border: 4px;
 }
 
 .container-filter {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1em;
 }
 
@@ -23,16 +24,18 @@ section.container-filter ul li {
     background-color: var(--light-gray);
     color: var(--medium-grey);
     font-family: var(--font-family);
-    font-size: 18px;
+    font-size: 16px;
     padding: 0.25em 0.5em;
 }
 
 @media (max-width: 768px) {
     .container-filter {
         flex-direction: row;
-        gap: 0.5em;
+        gap: 1.5em;
         justify-content: center;
         flex-wrap: wrap;
+        font-size: 16px;
+
     }
 
     .container-filter ul {
@@ -56,6 +59,8 @@ section.container-filter ul li {
         gap: 0.3em;
         justify-content: space-around;
         flex-wrap: wrap;
+        font-size: 16px;
+
     }
 
     .container-filter ul {
@@ -68,7 +73,7 @@ section.container-filter ul li {
     }
 
     .container-filter button {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0.2em 0.3em;
         
     }
