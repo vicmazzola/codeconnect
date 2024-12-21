@@ -33,7 +33,7 @@
 
 .card__link {
     text-decoration: none;
-    color: var(--cinza-claro);
+    color: var(--light-grey);
 }
 
 .content__text {
